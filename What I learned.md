@@ -1,2 +1,3 @@
 Positioning Objects via CSS with positioning properties and values like static, relative, fixed, absolute
 I can center block elements by adding a padding-left and a padding-right with the same values till the element fits the width I want
+Using a media query we must decide wether we work ourselves up from mobile to desktop format or the other way round. Because when we start with the desktop version first we use max-width ...px as our breaking point. We use min-width ...px as our breaking point when we start with the mobile version.

@@ -63,6 +63,7 @@ p {
   border-radius: 12px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 30px;
 }
 
 .music-icon {
@@ -96,4 +97,96 @@ p {
   position: relative;
   left: 120px;
   bottom: 60px;
+  transition: text-decoration 0.15s,
+              cursor 0.15s, 
+              color 0.15s;
+}
+
+.change:active {
+  text-decoration: none;
+  cursor: pointer;
+  color: hsla(253, 67%, 42%, 0.5);
+}
+
+.proceed {
+  background-color: hsl(243, 83%, 55%);
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  width: 330px;
+  height: 50px;
+  position: relative;
+  left: 50px;
+  box-shadow: 0px 10px 40px rgba(5, 29, 236, 0.35);
+  margin-bottom: 30px;
+  transition: background-color 0.15s,
+              cursor 0.15s;
+}
+
+.proceed:active {
+  background-color: hsla(243, 83%, 55%, 0.7);
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: white;
+  border: none;
+  color: grey;
+  font-weight: 900;
+  position: relative;
+  left: 173px;
+  transition: color 0.15s,
+              cursor 0.15s;
+}
+
+.cancel:active {
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+
+  .info {
+    top: 200px;
+  }
+
+  .card {
+    width: 350px;
+    position: relative;
+    left: 12.5px;
+  }
+
+  .hero {
+    width: 350px;
+  }
+
+  .title {
+    margin-bottom: 15px;
+  }
+
+  .plan {
+    width: 310px;
+  }
+
+  .description {
+    line-height: 25px;
+    margin-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .proceed {
+    width: 310px;
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    height: 60px;
+  }
+
+  .cancel {
+    position: relative;
+    left: 112.475px;
+    font-size: 18px;
+  }
 }
