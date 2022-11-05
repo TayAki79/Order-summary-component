@@ -102,7 +102,7 @@ p {
               color 0.15s;
 }
 
-.change:active {
+.change:hover {
   text-decoration: none;
   cursor: pointer;
   color: hsla(253, 67%, 42%, 0.5);
@@ -124,7 +124,7 @@ p {
               cursor 0.15s;
 }
 
-.proceed:active {
+.proceed:hover {
   background-color: hsla(243, 83%, 55%, 0.7);
   cursor: pointer;
 }
@@ -140,7 +140,7 @@ p {
               cursor 0.15s;
 }
 
-.cancel:active {
+.cancel:hover {
   color: black;
   cursor: pointer;
 }
