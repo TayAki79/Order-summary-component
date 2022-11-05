@@ -1,6 +1,6 @@
-* {
+ /* * {
   border: 1px solid red;
-}
+} */
 
 body {
   background-color: hsl(225, 100%, 94%);
@@ -52,5 +52,48 @@ p {
   color: grey;
   padding-left: 70px;
   padding-right: 70px;
+  margin-bottom: 20px;
 }
 
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  width: 330px;
+  height: 90px;
+  border: none;
+  border-radius: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.music-icon {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.conditions {
+  position: relative;
+  bottom: 30px;
+  right: 35px;
+}
+
+.annual-plan {
+  font-weight: 900;
+  margin-bottom: 3px;
+}
+
+.price {
+  color: grey;
+}
+
+.change {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(253, 67%, 42%);
+  text-decoration: underline;
+  position: relative;
+  left: 120px;
+  bottom: 60px;
+}
