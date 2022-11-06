@@ -10,6 +10,7 @@ body {
 img {
   width: 100%;
   position: fixed;
+  background-size: 100% 50vmin;
 }
 
 .card {
